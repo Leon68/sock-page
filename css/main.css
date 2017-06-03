@@ -404,3 +404,7 @@ footer {
 .friend a {
 	padding: 0 10px;
 }
+
+.friend a:hover {
+	color: #F6C616;
+}
