@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-06-01 12:07:23
+ * @version $Id$
+ */
+.clearfix::after {
+	content: "";
+  display: block;
+  clear: both;
+}
