@@ -403,8 +403,12 @@ footer {
 
 .friend a {
 	padding: 0 10px;
+	opacity: .6;
+	color: #F6C616;
+	font-size: 18px;
 }
 
 .friend a:hover {
-	color: #F6C616;
+	opacity: 1;
+	text-decoration: underline;
 }
