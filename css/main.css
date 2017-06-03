@@ -360,6 +360,8 @@ aside a {
 
 .form-right>textarea {
 	border-radius: 6px;
+	padding-top: 12px;
+	padding-left: 8px;
 }
 
 .submit {
