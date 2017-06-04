@@ -203,8 +203,9 @@ nav ul li a:active {
 	font-size: 120px;
 	color: white;
 	text-align: center;
-	line-height: 100%;
+	line-height: 2em;
 }
+
 
 .icon-hover:hover {
 	transition:all 1.5s;
