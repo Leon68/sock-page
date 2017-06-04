@@ -73,12 +73,14 @@ nav>a {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 30px;
 	font-style: italic;
-	width: 57%;
 	padding-top: 10px; 
 	padding-left: 40px;
 	text-transform: capitalize;
 }
-
+nav ul {
+	float: right;
+	width: 520px;
+}
 nav ul li a {
 	float: left;
 	padding: 12px 15px 10px 15px;  
@@ -347,6 +349,7 @@ aside a {
   width: 500px;
   height: 60px;
   margin-top: 20px;
+  margin-left: 20px;
   padding: 2px 8px;
   border-radius: 6px;
 }
@@ -365,10 +368,10 @@ aside a {
 }
 
 .submit {
-	display: inline-block;
+	display: block;
 	width: 240px;
 	height: 70px;
-	margin-top: 60px;
+	margin: 60px auto;
 	border-radius: 6px;
 	border: 0;
 	font-size: 20px;
