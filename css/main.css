@@ -200,12 +200,17 @@ nav ul li a:active {
 	opacity: 0;
 	background-color: #FBA507;
 	font-family: iconfont;
-	font-size: 120px;
+	font-size: 100px;
 	color: white;
 	text-align: center;
-	line-height: 2em;
 }
 
+span.icon-addition {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%)
+}
 
 .icon-hover:hover {
 	transition:all 1.5s;
