@@ -14,10 +14,26 @@
  
 </head>
 <body>
+	<button id="go-top"></button>
   <header id="header">
-  	<h3>welcome to our studio!</h3>
-  	<h1>it's nice to meet you</h1>
-  	<a href="#services">tell me more</a>
+	  <div class="carousel">
+		  <a href="##" class="pre"><</a>
+		  <a href="##" class="next">></a>
+		  <ul class="img-ct">
+			  <li><img src="img/imgCarousel/1.jpg" alt=""></li>
+			  <li><img src="img/imgCarousel/5.jpg" alt=""></li>
+			  <li><img src="img/imgCarousel/4.jpg" alt=""></li>
+			  <li><img src="img/imgCarousel/3.jpg" alt=""></li>
+			  <li><img src="img/imgCarousel/2.jpg" alt=""></li>
+			  <li><img src="img/imgCarousel/6.jpg" alt=""></li>
+		  </ul>
+
+	  </div>
+	  <div class="welcome">
+		  <h3>welcome to our studio!</h3>
+		  <h1>it's nice to meet you</h1>
+		  <a href="#services">tell me more</a>
+	  </div>
   </header>
   <nav id="nav">
     <a href="#header">start bootstrap</a>
@@ -28,6 +44,9 @@
   		<li>
   			<a href="#portfolio">portfolio</a>
   		</li>
+		<li>
+			<a href="#portfolio">landscope</a>
+		</li>
   		<li>
   			<a href="#about">about</a>
   		</li>
@@ -122,7 +141,13 @@
   			</li>
   		</ul>
   	</div>
+    <div id="landscope">
+		<h1>landscope</h1>
+		<p>Lorem ipsum dolor sit amet,consectetur.</p>
+		<div class="landscope-img"></div>
+		<button class="load-more">加载更多</button>
 
+	</div>
   	<div id="about">
   		<h1>about</h1>
   		<p>Lorem ipsum dolor sit amet,consectetur.</p>
@@ -240,5 +265,15 @@
       </div>
     </footer>
   </main>
+  <script src="js/lib/bower_components/requirejs/require.js"></script>
+  <script>
+	  require.config({
+		  baseUrl: 'js',
+		  paths: {
+		      'jquery': 'lib/bower_components/jquery/dist/jquery.min'
+		  }
+	  })
+      requirejs(['app/index'])
+  </script>
 </body>
 </html>
