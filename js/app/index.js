@@ -20,7 +20,7 @@ define(['jquery','com/gotop', 'com/event', 'com/carousel', 'com/exposure','com/b
 
 	
 
-	// new GoTop();
+	new GoTop();
 
 
 	 Carousel.init($('.carousel'));

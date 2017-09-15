@@ -31,7 +31,7 @@ define(['jquery'], function( $ ) {
 		bind: function() {
 			var me = this;
 
-			this.$c.on('click', function() {
+			this.$el.on('click', function() {
 				me.goToTop();
 			});
 

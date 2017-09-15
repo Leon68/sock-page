@@ -11,7 +11,7 @@ define(['jquery'], function ($) {
     Barrel.prototype = {
         ajaxImages: function () {
             var _this = this
-            $.get(`https://pixabay.com/api/?key=6282825-2a9cefbe1dbed27ba005a2747&q='风景'&image_type=photo&per_page=40`)
+            $.get(`https://pixabay.com/api/?key=6282825-2a9cefbe1dbed27ba005a2747&q=风景&image_type=photo&per_page=20&page=${Math.floor(Math.random()*10)}`)
                 .done(function (data) {
                     _this.render(data)
                 })
